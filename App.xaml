@@ -25,10 +25,7 @@
             <SolidColorBrush x:Key="BorderBrushColor" Color="{StaticResource BorderColor}" />
             <SolidColorBrush x:Key="PlaceholderBrush" Color="{StaticResource PlaceholderColor}" />
 
-            <Style TargetType="TextBlock">
-                <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
-                <Setter Property="FontSize" Value="14" />
-            </Style>
+
 
             <Style TargetType="TextBox">
                 <Setter Property="Margin" Value="0,5,0,5" />
@@ -54,7 +51,6 @@
 
             <Style TargetType="ComboBox">
                 <Setter Property="Margin" Value="0,5,0,5" />
-                <Setter Property="Padding" Value="10" />
                 <Setter Property="FontSize" Value="14" />
                 <Setter Property="BorderBrush" Value="{StaticResource BorderBrushColor}" />
                 <Setter Property="BorderThickness" Value="1" />
@@ -63,27 +59,15 @@
             </Style>
 
             <Style TargetType="Button">
-                <Setter Property="Padding" Value="10" />
                 <Setter Property="Margin" Value="5" />
-                <Setter Property="FontSize" Value="14" />
                 <Setter Property="FontWeight" Value="SemiBold" />
                 <Setter Property="Foreground" Value="White" />
                 <Setter Property="Background" Value="{StaticResource PrimaryBrush}" />
                 <Setter Property="BorderThickness" Value="0" />
                 <Setter Property="Cursor" Value="Hand" />
-                <Setter Property="Template">
-                    <Setter.Value>
-                        <ControlTemplate TargetType="Button">
-                            <Border
-                                Padding="{TemplateBinding Padding}"
-                                Background="{TemplateBinding Background}"
-                                CornerRadius="4">
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
-                            </Border>
-                        </ControlTemplate>
-                    </Setter.Value>
-                </Setter>
+
             </Style>
+
 
             <!--  Card-style container  -->
             <Style x:Key="CardStyle" TargetType="Border">
@@ -114,7 +98,7 @@
             <Style x:Key="SecondaryLabel" TargetType="Label">
                 <Setter Property="Foreground" Value="{StaticResource PlaceholderBrush}" />
                 <Setter Property="FontSize" Value="12" />
-                 
+
                 <Setter Property="Margin" Value="0,2,0,2" />
             </Style>
 
