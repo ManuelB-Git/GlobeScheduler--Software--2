@@ -9,8 +9,28 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <Grid >
-        <Label
-            Content="Dale Guey"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Column="1" HorizontalAlignment="Stretch">
+            <Image
+                Width="50"
+                Height="20"
+                Margin="10"
+                DockPanel.Dock="Left"
+                Source="/Images/appointment_inverted.png" />
+            <Label
+                Content="Globe Scheduler"
+                DockPanel.Dock="Left"
+                Foreground="White" />
+            <Menu HorizontalAlignment="Right">
+                <MenuItem Header="Dashboard" />
+                <MenuItem Header="Customers" />
+                <MenuItem Header="Apointments" />
+            </Menu>
+        </DockPanel>
     </Grid>
 </Window>

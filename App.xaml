@@ -100,6 +100,27 @@
                 <Setter Property="Margin" Value="0,2,0,2" />
             </Style>
 
+            <Style TargetType="DockPanel">
+                <Setter Property="Background" Value="{StaticResource AccentBrush}" />
+                <Setter Property="LastChildFill" Value="True" />
+                <Setter Property="Margin" Value="0,0,0,10" />
+            </Style>
+
+            <Style TargetType="Menu">
+                <Setter Property="Background" Value="{StaticResource PrimaryBrush}" />
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontWeight" Value="SemiBold" />
+                <Setter Property="Padding" Value="5,3" />
+            </Style>
+
+            <Style TargetType="MenuItem">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="Padding" Value="10,5" />
+                <Setter Property="Cursor" Value="Hand" />
+
+            </Style>
 
 
 

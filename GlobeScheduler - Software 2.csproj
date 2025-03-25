@@ -10,7 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Remove="Images\appointment.png" />
+    <None Remove="Images\appointment_inverted.png" />
+    <None Remove="Images\LoginIco.ico" />
+    <None Remove="Images\user-icon.png" />
+    <None Remove="Images\user-icon.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\appointment.png" />
+    <Resource Include="Images\appointment_inverted.png" />
+    <Resource Include="Images\LoginIco.ico" />
+    <Resource Include="Images\user-icon.png" />
+    <Resource Include="Images\user-icon.svg" />
   </ItemGroup>
 
 </Project>
