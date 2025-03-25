@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using Application = System.Windows.Application;
+
 
 namespace GlobeScheduler___Software_2
 {

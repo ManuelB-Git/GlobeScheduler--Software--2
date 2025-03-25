@@ -17,7 +17,6 @@
 
         <DockPanel Grid.Column="1" HorizontalAlignment="Stretch">
             <Image
-                Width="50"
                 Height="20"
                 Margin="10"
                 DockPanel.Dock="Left"
@@ -32,5 +31,6 @@
                 <MenuItem Header="Apointments" />
             </Menu>
         </DockPanel>
+        <Frame x:Name="Main" Grid.Row="1" />
     </Grid>
 </Window>

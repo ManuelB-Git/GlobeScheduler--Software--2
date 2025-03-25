@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using MessageBox = System.Windows.Forms.MessageBox;
 
 
 namespace GlobeScheduler___Software_2
