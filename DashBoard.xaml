@@ -37,10 +37,10 @@
                     Grid.Row="1"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
-                    BorderBrush="DarkGray"
+                    BorderBrush="Black"
                     BorderThickness="1">
 
-                    <Grid>
+                    <Grid Background="#f5f5f5">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
@@ -117,10 +117,10 @@
                     Grid.Row="3"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
-                    BorderBrush="DarkGray"
+                    BorderBrush="Black"
                     BorderThickness="1">
 
-                    <Grid>
+                    <Grid Background="#f5f5f5">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
