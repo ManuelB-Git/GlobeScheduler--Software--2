@@ -14,89 +14,89 @@
 
     <Viewbox Stretch="Uniform">
         <Grid Width="800" Height="450">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
 
-        <Label
-            Grid.Row=" 0"
-            HorizontalAlignment="Center"
-            Content="Customers"
-            FontSize="22" />
-        <DataGrid
-            Grid.Row="1"
-            Margin="5"
-            AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Width="*" Header="Customer Name" />
-                <DataGridTextColumn Width="*" Header="Address" />
-                <DataGridTextColumn Width="*" Header="Phone" />
-            </DataGrid.Columns>
-        </DataGrid>
-
-
-        <Border
-            Grid.Row="2"
-            Grid.Column="0"
-            Grid.ColumnSpan="2"
-            BorderBrush="Black"
-            BorderThickness="1">
-
-            <Grid Background="#f5f5f5">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Label
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    Content="Customer Name*" />
-                <TextBox
-                    Grid.Row="1"
-                    Grid.Column="0"
-                    Margin="10,0,10,0" />
-                <Label
-                    Grid.Row="2"
-                    Grid.Column="0"
-                    Content="Phone Number*" />
-                <TextBox
-                    Grid.Row="3"
-                    Grid.Column="0"
-                    Margin="10,0,10,0" />
-                <Label
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    Content="Address*" />
-                <TextBox
-                    Grid.Row="5"
-                    Grid.RowSpan="2"
-                    Grid.Column="0"
-                    Margin="10,0,10,10" />
-                <StackPanel
-                    Grid.Row="0"
-                    Grid.RowSpan="7"
-                    Grid.Column="1"
-                    VerticalAlignment="Center">
-
-                    <Button Content="Save" />
-                    <Button Content="Delete" />
-
-                </StackPanel>
+            <Label
+                Grid.Row=" 0"
+                HorizontalAlignment="Center"
+                Content="Customers"
+                FontSize="22" />
+            <DataGrid
+                Grid.Row="1"
+                Margin="5"
+                AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="*" Header="Customer Name" />
+                    <DataGridTextColumn Width="*" Header="Address" />
+                    <DataGridTextColumn Width="*" Header="Phone" />
+                </DataGrid.Columns>
+            </DataGrid>
 
 
-            </Grid>
-        </Border>
-    </Grid>
+            <Border
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                BorderBrush="Black"
+                BorderThickness="1">
+
+                <Grid Background="#f5f5f5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Content="Customer Name*" />
+                    <TextBox
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="10,0,10,0" />
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Content="Phone Number*" />
+                    <TextBox
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Margin="10,0,10,0" />
+                    <Label
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Content="Address*" />
+                    <TextBox
+                        Grid.Row="5"
+                        Grid.RowSpan="2"
+                        Grid.Column="0"
+                        Margin="10,0,10,10" />
+                    <StackPanel
+                        Grid.Row="0"
+                        Grid.RowSpan="7"
+                        Grid.Column="1"
+                        VerticalAlignment="Center">
+
+                        <Button Content="Save" />
+                        <Button Content="Delete" />
+
+                    </StackPanel>
+
+
+                </Grid>
+            </Border>
+        </Grid>
     </Viewbox>
 </Page>

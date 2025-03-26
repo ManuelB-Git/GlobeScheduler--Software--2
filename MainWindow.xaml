@@ -29,19 +29,22 @@
                 DockPanel.Dock="Left"
                 Foreground="White" />
             <Menu HorizontalAlignment="Right">
-                <MenuItem Tag="Dashboard" Header="Dashboard" Click="MenuItem_Click" />
-                <MenuItem Header="Customers" Click="MenuItem_Click" />
-                <MenuItem Header="Appointments" Click="MenuItem_Click"/>
-                <MenuItem Header="Reports" Click="MenuItem_Click"/>
+                <MenuItem
+                    Click="MenuItem_Click"
+                    Header="Dashboard"
+                    Tag="Dashboard" />
+                <MenuItem Click="MenuItem_Click" Header="Customers" />
+                <MenuItem Click="MenuItem_Click" Header="Appointments" />
+                <MenuItem Click="MenuItem_Click" Header="Reports" />
 
             </Menu>
         </DockPanel>
 
         <Frame
-            NavigationUIVisibility="Hidden"
             x:Name="Main"
             Grid.Row="1"
-            Margin="10" />
+            Margin="10"
+            NavigationUIVisibility="Hidden" />
         <DockPanel Grid.Row="2" Margin="0">
             <Label
                 HorizontalAlignment="Center"
