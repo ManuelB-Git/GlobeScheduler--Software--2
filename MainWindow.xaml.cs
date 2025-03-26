@@ -1,19 +1,12 @@
-﻿using System.Text;
+﻿using GlobeScheduler___Software_2.Pages;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace GlobeScheduler___Software_2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+ 
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -21,5 +14,34 @@ namespace GlobeScheduler___Software_2
             InitializeComponent();
             Main.Content = new DashBoard();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is MenuItem menuItem)
+            {
+                switch (menuItem.Header.ToString())
+                {
+                    case "Dashboard":
+                        Main.Content = new DashBoard();
+                        break;
+                    case "Customers":
+                        Main.Content = new Customers();
+                        break;
+                    case "Appointments":
+                        Main.Content = new Appointments();
+                        break;
+                    case "Reports":
+                        Main.Content = new Reports();
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            
+
+        }
+
+    
     }
 }

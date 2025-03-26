@@ -80,10 +80,10 @@
                             Grid.Column="0"
                             Margin="10,0,10,10" />
                         <Border
-                            Margin="5"
                             Grid.Row="0"
                             Grid.RowSpan="7"
                             Grid.Column="1"
+                            Margin="5"
                             BorderBrush="DarkGray"
                             BorderThickness="1">
                             <Grid>
@@ -167,10 +167,10 @@
                             Grid.Column="0"
                             Margin="10,0,10,10" />
                         <Border
-                            Margin="5"
                             Grid.Row="0"
                             Grid.RowSpan="7"
                             Grid.Column="1"
+                            Margin="5"
                             BorderBrush="DarkGray"
                             BorderThickness="1">
                             <Grid>
