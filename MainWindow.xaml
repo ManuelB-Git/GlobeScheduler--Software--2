@@ -49,7 +49,7 @@
         <DockPanel Grid.Row="2" Margin="0">
             <Label
                 HorizontalAlignment="Center"
-                Content="2025 M.D Globe Scheduler. All rights reserved"
+                Content="©2025 M.D Globe Scheduler. All rights reserved"
                 FontSize="10"
                 Foreground="White" />
         </DockPanel>
