@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Forms;
 
 
 namespace GlobeScheduler___Software_2
@@ -19,7 +20,9 @@ namespace GlobeScheduler___Software_2
             }
             else
             {
+                
                 new GlobeMessageBox("Invalid Username or Password").ShowDialog();
+
             }
         }
     }
